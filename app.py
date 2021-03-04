@@ -2,8 +2,8 @@ import os
 from random import randint
 from datetime import datetime, timedelta
 
-start_date = datetime(2021, 1, 1)  # Set your start date
-end_date = datetime(2021, 3, 28)   # Set your end date
+start_date = datetime(2021, 3, 1)  # Set your start date
+end_date = datetime(2021, 6, 28)   # Set your end date
 
 commits_per_day = 1  # Number of commits per day
 gap_range = (1, 7)   # Range for the gap between commits (in days)
